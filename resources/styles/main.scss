@@ -1,0 +1,21 @@
+$text-color: white;
+$background-color1: #1C2120;
+$background-color2: #5B8BDF;
+$element-color1: #7F7F7F;
+$element-color2: #FAAE69;
+
+@use 'vuetify/settings' with (
+    $card-color: $text-color,
+);
+
+.mdi-checkbox-blank-outline {
+    //color: white !important;
+    //background-color: $element-color1;
+}
+
+input.v-field__input, input.v-field__input:focus {
+    //opacity: 1 !important;
+    //color: $text-color !important;
+    //background-color: $element-color1 !important;
+    //border-radius: settings.$field-rounded-border-radius;
+}
